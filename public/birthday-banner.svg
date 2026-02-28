@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Happy Birthday Banner</title>
+  <desc id="desc">A festive birthday banner with balloons, confetti, and a greeting message.</desc>
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f1147" />
+      <stop offset="100%" stop-color="#5a2ea6" />
+    </linearGradient>
+
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166" />
+      <stop offset="50%" stop-color="#ffe9a8" />
+      <stop offset="100%" stop-color="#ffd166" />
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bgGradient)" rx="20" />
+
+  <g opacity="0.9">
+    <circle cx="90" cy="50" r="5" fill="#ff6b6b" />
+    <rect x="170" y="35" width="10" height="10" fill="#ffd166" transform="rotate(20 175 40)" />
+    <circle cx="260" cy="70" r="4" fill="#4ecdc4" />
+    <rect x="350" y="42" width="8" height="14" fill="#f4a261" transform="rotate(-25 354 49)" />
+    <circle cx="460" cy="54" r="5" fill="#ff7cf0" />
+    <rect x="560" y="28" width="12" height="8" fill="#a0e418" transform="rotate(15 566 32)" />
+    <circle cx="660" cy="58" r="4" fill="#ffd166" />
+    <rect x="760" y="38" width="8" height="12" fill="#5ec2ff" transform="rotate(-18 764 44)" />
+    <circle cx="860" cy="65" r="5" fill="#ff6b6b" />
+    <rect x="950" y="34" width="12" height="9" fill="#4ecdc4" transform="rotate(30 956 38)" />
+    <circle cx="1050" cy="60" r="4" fill="#f4a261" />
+    <rect x="1120" y="40" width="10" height="10" fill="#ffe066" transform="rotate(-12 1125 45)" />
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="95" cy="170" rx="35" ry="45" fill="#ff6b6b" />
+    <ellipse cx="145" cy="135" rx="30" ry="40" fill="#4ecdc4" />
+    <ellipse cx="185" cy="182" rx="28" ry="36" fill="#ffd166" />
+    <path d="M95 214 C92 238, 100 250, 94 276" stroke="#f8f9fa" stroke-width="2" fill="none" />
+    <path d="M145 175 C140 205, 155 228, 145 276" stroke="#f8f9fa" stroke-width="2" fill="none" />
+    <path d="M185 218 C190 240, 178 252, 184 276" stroke="#f8f9fa" stroke-width="2" fill="none" />
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="1110" cy="165" rx="35" ry="45" fill="#ff7cf0" />
+    <ellipse cx="1060" cy="132" rx="30" ry="40" fill="#5ec2ff" />
+    <ellipse cx="1015" cy="182" rx="28" ry="36" fill="#a0e418" />
+    <path d="M1110 208 C1104 235, 1118 248, 1108 276" stroke="#f8f9fa" stroke-width="2" fill="none" />
+    <path d="M1060 172 C1068 201, 1048 227, 1060 276" stroke="#f8f9fa" stroke-width="2" fill="none" />
+    <path d="M1015 218 C1023 236, 1007 250, 1017 276" stroke="#f8f9fa" stroke-width="2" fill="none" />
+  </g>
+
+  <g text-anchor="middle" filter="url(#shadow)">
+    <text x="600" y="145" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="62" font-weight="700" fill="url(#textGradient)">
+      Happy Birthday!
+    </text>
+    <text x="600" y="195" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="28" fill="#f8f9fa" letter-spacing="1">
+      Wishing you joy, laughter &amp; cake 🎂
+    </text>
+  </g>
+
+  <path d="M260 88 Q600 28 940 88" stroke="#ffffff" stroke-opacity="0.6" stroke-width="3" fill="none" />
+  <g>
+    <path d="M320 88 L340 122 L360 88 Z" fill="#ff6b6b" />
+    <path d="M400 77 L420 111 L440 77 Z" fill="#ffd166" />
+    <path d="M480 67 L500 101 L520 67 Z" fill="#4ecdc4" />
+    <path d="M560 59 L580 93 L600 59 Z" fill="#ff7cf0" />
+    <path d="M640 59 L660 93 L680 59 Z" fill="#5ec2ff" />
+    <path d="M720 67 L740 101 L760 67 Z" fill="#a0e418" />
+    <path d="M800 77 L820 111 L840 77 Z" fill="#f4a261" />
+    <path d="M880 88 L900 122 L920 88 Z" fill="#ffd166" />
+  </g>
+</svg>
