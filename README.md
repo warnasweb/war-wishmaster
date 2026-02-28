@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Happy Birthday Wishes 🎉
 
-## Getting Started
+A custom **Next.js birthday greeting web app** with a fun reveal interaction:
 
-First, run the development server:
+- On initial load, users see a lamp-themed intro screen.
+- A **slide control** (instead of a click switch) is used to "turn on" the lamp.
+- Once slid to the end, the full birthday content appears with banner images, wishes, and animated styling.
+
+## Features
+
+- Lamp reveal screen on first load
+- Slider-based unlock interaction
+- Birthday hero section with images
+- Animated confetti-style background and glowing lamp effect
+- Responsive layout for mobile and desktop
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) (App Router)
+- React + TypeScript
+- CSS Modules
+
+## Run Locally
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Then open the local URL shown in terminal (usually `http://localhost:3000`).
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/page.tsx` – main page UI and lamp slider logic
+- `src/app/page.module.css` – component styling and animations
+- `src/app/layout.tsx` – app metadata and layout
+- `public/` – birthday images and banner assets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- If `npm run dev` says port 3000 is already in use, Next.js will automatically use another port (for example 3001).
+- If a `.next/dev/lock` error appears, stop any other running `next dev` process and retry.
